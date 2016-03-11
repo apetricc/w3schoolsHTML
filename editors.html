@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US"> <!-- declaring the language is important for screen readers and search engines-->
+    <head>
+       <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    
+    <body>
+    
+    <h1 title="the 'title' will be shown as a tooltip when you mouse hover over the text">
+      This is my first heading in this course!
+    </h1><br>
+        <a href="#linkToHere">visit the link to here section</a><br>
+    <br/><!-- This is a comment, the <br/> tag does a break and doesn't need to be closed but XHTML likes it closed -->
+    <p title="This text will be shown as a tooltip">This is a paragraph that I typed</p>
+    <p> links can be inserted by using the 'a' tag, you put the link after href=""</p>
+    <a href = "http://www.w3schools.com">This is a link to w3schools</a>
+    <p> HTML has many attributes: the lang attribute, title, href, size, alt</p>
+    <p> you can insert an image with the img src tag, it looks like this: img src="file" width="#" height = "#"<br/> here is an example:</p>
+    <img src = "w3schools.jpg" height = "100" width = "100"> 
+    <p> for some reason you don't really have to close the img tag, but I guess you should if you're using xhtml</p>
+    <p>Use heading tags for the heading only, not to make text BIG or <strong>bold</strong></p>
+    <p>search engines use the heading to index the page etc, so don't use it for the wrong reasons...</p>
+    <br/>
+    <p>You can create horizontal lines to separate stuff with the 'hr' tag, if you want to for some reason, they look like this:</p><hr>
+    <br/>
+    <hr>
+    <p>stuff you put inbetween the head tags contains meta data which data about the page--it's not displayed on the page</p>
+    <pre>
+   The 'pre' tag allows you to keep the format of text.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+   </pre>
+   <p>other wise the text all gets smooshed together and spaces and breaks are ignored! (unless you use a <br/>break tag of course)</p><br/>
+    <p>You can make text different colors by using the style tag and setting it equal to "color:theColorYouWant;" <style="color:red;">is this red?</style> the color attribute to the color you want like this: </p>
+    <p style="color:red;">this should be red</p>
+    <p>the syntax is like this: style="property:value;"    .... the property is a CSS property, the value is a CSS value</p><br/>
+        <div style="background-color:lightgrey;">
+            <h1>You can set the background-color:lightgrey;</h1>
+            <p>This is a paragraph</p>
+        </div>
+    <p style="font-family:verdana;">Besides setting the color of text and setting the color of the background, you can also set the font of text: style="font-family:verdana;" This text should be verdana</style></p><br/>
+<p style="text-align:center;">You can also do text alignment with HTML by using the style="text-align:center;"</p><br/>
+<p style="color:red;font-size:150%;">Size can also be adjusted by using the style tag and setting font-size: either in pixels (px) or by percent (%), oh & you can adjust more than one style setting by putting a semicolon in there between the different settings</p><br/>
+<p>You can do some other cool formatting stuff with HTML, there is the <b>bold</b> tag, and also <strong>strong</strong> tag for stuff with <i>extra</i> importance.  There is also the <i>italic</i> tag for putting stuff in <i>italics</i>, and the <em>emphasis</em> tag for putting emphasis on text (although they look the same).</p><br/>
+<p>Browsers display <"strong"> as <"b">, and <"em"> as <"i">.
+
+However, there is a difference in the meaning of these tags: <"b"> and <"i"> defines bold and italic text,
+but <"strong"> and <"em"> means that the text is "important".
+</p><br/>
+<p>You can make text <small>small</small> by using the "small" tag.</p><br/>
+<p>You can even <mark>highlight</mark> text by using the "mark" tag.</p><br/>
+<p>You can strike through text with the 'del' tag like this: <del>This text is marked for deletion</del></p><br/>
+<p>You can do something called an insert as well by using the "ins" tag like this: <ins>here is some text that was inserted</ins></p><br/>
+<p>You can use the "sub" tag to add subscript text: <sub>This is a subscript</sub></p><br/>
+<p>You can also add so-called 'superscript' text in much the same way by using the "sup" tag: <sup>here is some superscript text</sup></p><br/>
+<p>You can put text in quotes with the 'q' tag like this:  <q>This is what I said</q></p><br/>
+<p>You can do a long quote, aka a 'block quote' with the the "blockquote" tag like this:
+ <blockquote cite="http://www.wikipedia.com"> 
+   This is a long quote of some stuff that I am quoting, this should be indented automatically (no quotes), but this might be sort of a deprcated tag by the time I try to use it.  I need to learn some PHP really...
+ </blockquote></p><br/>
+<p>The "abbr" tag makes a tooltip window for the complete term that you abbreviate so that people can still see it.  Here's an example: <abbr title="God What an Awful Ruckus;" style="color:red">GWAR</abbr></p><br/>
+<p>There is a tag for "address"/contact info that puts stuff in italics and indents it: <address>Written by The Walrus.<br>Hometown: Essex, England<br>PO Box 1234</address></p><br/>
+<p>You can "cite" authors etc with that tag, and it puts that stuff in italics usually: <cite>First Blood</cite> by David Morell</p><br/>   
+<p>weirdly enough, there is a tag for reversing the direction of text, it's called the "bi-directional override" tag, or "bdo" tag, used like this: "bdo dir='rtl'" for 'right to left', here is an example of this kooky tag: <bdo dir="rtl">The word drewwerd and mom are spelled the same backwards!</bdo></p><br/>
+<p>You can add elements of computer code that will keep the same formatting since that's important with code: <code>Can I talk about html tags in here ???   <i>is this in italics? yes it is, so maybe just general code stuff</i></code></p><br>
+<p><i>Now some stuff about using color in HTML....</i></p><br/>
+<p>You can just state the name of the color, there are 140 standard color names<br/>
+or you can use rgb.</p><br/>
+<h2 style="background-color:blue">
+Background-color set by using blue
+</h2>
+
+
+<h2 style="background-color:rgb(255,0,0)">
+Background-color set by using rgb(255,0,0)
+</h2>
+
+<h2 style="background-color:rgb(0,255,0)">
+Background-color set by using rgb(0,255,0)
+</h2>
+
+<h2 style="background-color:rgb(0,0,255)">
+Background-color set by using rgb(0,0,255)
+</h2>
+
+<h2 style="background-color:rgb(255,255,0)">
+Background-color set by using rgb(255,255,0)
+</h2>
+
+<h2 style="background-color:rgb(255,0,255)">
+Background-color set by using rgb(255,0,255)
+</h2>
+
+<h2 style="background-color:rgb(0,255,255)">
+Background-color set by using rgb(0,255,255)
+</h2>
+<p>rgb(0,0,0) is black, rgb(128,128,128) is gray (all the same makes gray), rgb(255,255,255) is white</p>
+<br/>
+<p>You can also use hex codes, where the first 2 are red, next 2 are green, last 2 are blue. Therefore red would be #FF0000, green is #00FF00, and blue is #0000FF</p><br/>
+<p>CSS dude!  You can use CSS to style a single element with so called 'inline styling', that's pretty much all the stuff we've done up to this point.  That's when you just say <em><strong>style="property:value;"</em> </strong> on an attribute like a "p" or a heading or whatever</p><br/>
+<p></p><br/>
+<p>You can also specify the style of attributes at the top of an HTML page. <strong>This is called internal CSS styling.  </strong>This syntax is a little weird since you don't have to use colons, you just put a style block  in the head of the document specifying the attributes and their rules:  <br/>
+    <"style"<br>
+body {background-color:lightgrey;}<br>
+h1   {color:blue;}<br>
+p    {color:green;}<br>
+<"/style"</p><br/>
+<p>You can also use an external file, which is called <strong>External Styling, or External CSS</strong>. This is when you link to a file that has all the CSS rules listed and can be reused on more than one page which is handy.<br>To do this you put a "link" tag that says <strong><"link"(no quotes on link) rel="stylesheet" href="style.css" type="text/css"></strong><br>
+    the stylesheet should look like this:<br>
+    body/element {<br>
+    color/attribute:blue/value<br>
+    }</stylesh></p><br/>   
+   
+<p>CSS uses the 'box model' which refers to 'border, margin, padding</p><br/>
+<p id="p01">To target specific elements of an HTML page you can give them an id like I did this line, and refer to it in your stylesheet instead of all "p" tags you would use "p01" as your element to be styled.</p>
+<p><strong>id's use a # sign in the css file, classes use a "." class so if the class was 01 I would say p.01 to refer to all p elements with the 01 class</strong></p><br/>    
+<p>HTML links have some options too. Normally you use the 'a' tag like this: <"a" href='url'>link text<'/a'><br>It doesn't have to be text either.  It can be a pic or any other HTML element (like a button)</p><br/>
+    <p>Normally links change color by default.<br>  <list>An unvisited link is underlined and blue<br>
+A visited link is underlined and purple<br>
+An active link is underlined and red<br>
+    
+ <br></list></p><br>
+<p>The target attribute specifies where to open the linked document. </p><br>
+<a href="http://www.w3schools.com/" target="_blank">Visit W3Schools!</a> <br>
+<p>_blank	Opens the linked document in a new window or tab<br>
+_self	Opens the linked document in the same frame as it was clicked (this is default)<br>
+_parent	Opens the linked document in the parent frame<br>
+_top	Opens the linked document in the full body of the window<br>
+framename	Opens the linked document in a named frame</p><br>
+<p>You can use an image to click on as a link too, like this:<br>
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+</a>
+ </p><br>
+<p>You can make bookmarks to different parts of your page (handy if the page is really long and you want to have it scroll to different parts automatically.</p><br>
+<p id="linkToHere">First you have to make a bookmark and then add a link to it.</p><br>
+<a href="#linkToHere">visit the link to here section</a><br>
+<p style="font-size:24pt"><u>Images</u></p><br>
+<p>Always specify the height and width of an image or the page will flicker as it loads.</p><br>
+<img src="pic_mountain.jpg" alt="Mountain View" style="width:304px;height:228px;">
+<br> <p>This looks like this: <,img ~src="pic_mountain.jpg" ~alt="Mountain View" style="width:304px;height:228px;"></p><br>
+<p>The image tag 'img' always looks that way. <~img src="url" alt="some_text"></p><br>
+    <p> Know that screen readers rely on the alt text.<br>
+You can specify the width and height of an image with a 'style' tag as in ~style="width:128px;height:128px"><br> or you can use width and height attributes like this: <~img src="html5.gif" alt="HTML Icon" width="128" height="128"></p><hr><br> <hr>
+
+
+</body>
+</html>
